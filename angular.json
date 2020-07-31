@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Angular-Flex-Layout"
+    }
+  },
+  "defaultProject": "Angular-Flex-Layout",
+  "cli": {
+    "analytics": "3c4ff006-741c-418b-8477-9172d707a757"
+  }
 }
