@@ -8,7 +8,6 @@ html {
   padding: 0px;
 }
 .content {
-  height: 800px;
   background-color: #eee;
 }
 .container-outer {
@@ -26,4 +25,23 @@ html {
 .container-element {
   border: solid 3px #c70039;
   padding: 10px;
+}
+
+.background-container {
+  background-color: #900c3f;
+}
+.background-inner {
+  background-color: #ff5733;
+}
+.background-element {
+  background-color: #c70039;
+}
+.background-outer {
+  background-color: #ffc300;
+}
+.height150 {
+  height: 150px;
+}
+.height250 {
+  height: 250px;
 }

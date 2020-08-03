@@ -1,9 +1,511 @@
-<p>
-	<a [routerLink]="['']" routerLinkActive="router-link-active">Home</a>
-</p>
-<p>
-	<a [routerLink]="['/row-examples']" routerLinkActive="router-link-active">Row Examples</a>
-</p>
-<p>
-	<a [routerLink]="['/col-examples']" routerLinkActive="router-link-active">Column Examples</a>
-</p>
+<div>
+	<h3>Row Examples</h3>
+</div>
+
+<div>
+	<div>
+		<h3>fxLayout="row" fxLayoutAlign="start start"</h3>
+		<div fxLayout="row" fxLayoutAlign="start start" class="container height150">
+			<div class="container-outer">div</div>
+			<div class="container">div</div>
+			<div class="container-inner">div</div>
+			<div class="container-element">div</div>
+		</div>
+		<div class="code-container">
+			<code>
+				&#x9;&#x3C;div fxLayout=&#x22;row&#x22; fxLayoutAlign=&#x22;start start&#x22; class=&#x22;container&#x22;&#x3E;
+				&#x9;&#x9;&#x9;&#x9;&#x9;<br> --  &#x3C;div class=&#x22;container-outer&#x22;&#x3E;div&#x3C;/div&#x3E;
+				&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container&#x22;&#x3E;div&#x3C;/div&#x3E;
+				&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-inner&#x22;&#x3E;div&#x3C;/div&#x3E;
+				&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-element&#x22;&#x3E;div&#x3C;/div&#x3E;<br>
+				&#x9;&#x9;&#x9;&#x9;&#x3C;/div&#x3E;
+
+			</code>
+		</div>
+
+	</div>
+	<div>
+		<h3>fxLayout="row" fxLayoutAlign="start center"</h3>
+		<div fxLayout="row" fxLayoutAlign="start center" class="container height150">
+			<div class="container-outer">div</div>
+			<div class="container">div</div>
+			<div class="container-inner">div</div>
+			<div class="container-element">div</div>
+		</div>
+		<div class="code-container">
+			<code>
+						&#x9;&#x3C;div fxLayout=&#x22;row&#x22; fxLayoutAlign=&#x22;start center&#x22; class=&#x22;container&#x22;&#x3E;
+						&#x9;&#x9;&#x9;&#x9;&#x9;<br> --  &#x3C;div class=&#x22;container-outer&#x22;&#x3E;div&#x3C;/div&#x3E;
+						&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container&#x22;&#x3E;div&#x3C;/div&#x3E;
+						&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-inner&#x22;&#x3E;div&#x3C;/div&#x3E;
+						&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-element&#x22;&#x3E;div&#x3C;/div&#x3E;<br>
+						&#x9;&#x9;&#x9;&#x9;&#x3C;/div&#x3E;
+
+					</code>
+		</div>
+
+	</div>
+	<div>
+		<h3>fxLayout="row" fxLayoutAlign="start end"</h3>
+		<div fxLayout="row" fxLayoutAlign="start end" class="container height150">
+			<div class="container-outer">div</div>
+			<div class="container">div</div>
+			<div class="container-inner">div</div>
+			<div class="container-element">div</div>
+		</div>
+		<div class="code-container">
+			<code>
+						&#x9;&#x3C;div fxLayout=&#x22;row&#x22; fxLayoutAlign=&#x22;start end&#x22; class=&#x22;container&#x22;&#x3E;
+						&#x9;&#x9;&#x9;&#x9;&#x9;<br> --  &#x3C;div class=&#x22;container-outer&#x22;&#x3E;div&#x3C;/div&#x3E;
+						&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container&#x22;&#x3E;div&#x3C;/div&#x3E;
+						&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-inner&#x22;&#x3E;div&#x3C;/div&#x3E;
+						&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-element&#x22;&#x3E;div&#x3C;/div&#x3E;<br>
+						&#x9;&#x9;&#x9;&#x9;&#x3C;/div&#x3E;
+
+					</code>
+		</div>
+
+	</div>
+	<div>
+		<h3>fxLayout="row" fxLayoutAlign="start stretch"</h3>
+		<div fxLayout="row" fxLayoutAlign="start stretch" class="container height150">
+			<div class="container-outer">div</div>
+			<div class="container">div</div>
+			<div class="container-inner">div</div>
+			<div class="container-element">div</div>
+		</div>
+		<div class="code-container">
+			<code>
+					&#x9;&#x3C;div fxLayout=&#x22;row&#x22; fxLayoutAlign=&#x22;start stretch&#x22; class=&#x22;container&#x22;&#x3E;
+					&#x9;&#x9;&#x9;&#x9;&#x9;<br> --  &#x3C;div class=&#x22;container-outer&#x22;&#x3E;div&#x3C;/div&#x3E;
+					&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container&#x22;&#x3E;div&#x3C;/div&#x3E;
+					&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-inner&#x22;&#x3E;div&#x3C;/div&#x3E;
+					&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-element&#x22;&#x3E;div&#x3C;/div&#x3E;<br>
+					&#x9;&#x9;&#x9;&#x9;&#x3C;/div&#x3E;
+
+				</code>
+		</div>
+
+	</div>
+	<div>
+		<h3>fxLayout="row" fxLayoutAlign="center start"</h3>
+		<div fxLayout="row" fxLayoutAlign="center start" class="container height150">
+			<div class="container-outer">div</div>
+			<div class="container">div</div>
+			<div class="container-inner">div</div>
+			<div class="container-element">div</div>
+		</div>
+		<div class="code-container">
+			<code>
+					&#x9;&#x3C;div fxLayout=&#x22;row&#x22; fxLayoutAlign=&#x22;center start&#x22; class=&#x22;container&#x22;&#x3E;
+					&#x9;&#x9;&#x9;&#x9;&#x9;<br> --  &#x3C;div class=&#x22;container-outer&#x22;&#x3E;div&#x3C;/div&#x3E;
+					&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container&#x22;&#x3E;div&#x3C;/div&#x3E;
+					&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-inner&#x22;&#x3E;div&#x3C;/div&#x3E;
+					&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-element&#x22;&#x3E;div&#x3C;/div&#x3E;<br>
+					&#x9;&#x9;&#x9;&#x9;&#x3C;/div&#x3E;
+
+				</code>
+		</div>
+
+	</div>
+	<div>
+		<h3>fxLayout="row" fxLayoutAlign="center center"</h3>
+		<div fxLayout="row" fxLayoutAlign="center center" class="container height150">
+			<div class="container-outer">div</div>
+			<div class="container">div</div>
+			<div class="container-inner">div</div>
+			<div class="container-element">div</div>
+		</div>
+		<div class="code-container">
+			<code>
+					&#x9;&#x3C;div fxLayout=&#x22;row&#x22; fxLayoutAlign=&#x22;center center&#x22; class=&#x22;container&#x22;&#x3E;
+					&#x9;&#x9;&#x9;&#x9;&#x9;<br> --  &#x3C;div class=&#x22;container-outer&#x22;&#x3E;div&#x3C;/div&#x3E;
+					&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container&#x22;&#x3E;div&#x3C;/div&#x3E;
+					&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-inner&#x22;&#x3E;div&#x3C;/div&#x3E;
+					&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-element&#x22;&#x3E;div&#x3C;/div&#x3E;<br>
+					&#x9;&#x9;&#x9;&#x9;&#x3C;/div&#x3E;
+
+				</code>
+		</div>
+
+	</div>
+	<div>
+		<h3>fxLayout="row" fxLayoutAlign="center end"</h3>
+		<div fxLayout="row" fxLayoutAlign="center end" class="container height150">
+			<div class="container-outer">div</div>
+			<div class="container">div</div>
+			<div class="container-inner">div</div>
+			<div class="container-element">div</div>
+		</div>
+		<div class="code-container">
+			<code>
+						&#x9;&#x3C;div fxLayout=&#x22;row&#x22; fxLayoutAlign=&#x22;center end&#x22; class=&#x22;container&#x22;&#x3E;
+						&#x9;&#x9;&#x9;&#x9;&#x9;<br> --  &#x3C;div class=&#x22;container-outer&#x22;&#x3E;div&#x3C;/div&#x3E;
+						&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container&#x22;&#x3E;div&#x3C;/div&#x3E;
+						&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-inner&#x22;&#x3E;div&#x3C;/div&#x3E;
+						&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-element&#x22;&#x3E;div&#x3C;/div&#x3E;<br>
+						&#x9;&#x9;&#x9;&#x9;&#x3C;/div&#x3E;
+
+					</code>
+		</div>
+
+	</div>
+	<div>
+		<h3>fxLayout="row" fxLayoutAlign="center stretch"</h3>
+		<div fxLayout="row" fxLayoutAlign="center stretch" class="container height150">
+			<div class="container-outer">div</div>
+			<div class="container">div</div>
+			<div class="container-inner">div</div>
+			<div class="container-element">div</div>
+		</div>
+		<div class="code-container">
+			<code>
+								&#x9;&#x3C;div fxLayout=&#x22;row&#x22; fxLayoutAlign=&#x22;center stretch&#x22; class=&#x22;container&#x22;&#x3E;
+								&#x9;&#x9;&#x9;&#x9;&#x9;<br> --  &#x3C;div class=&#x22;container-outer&#x22;&#x3E;div&#x3C;/div&#x3E;
+								&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container&#x22;&#x3E;div&#x3C;/div&#x3E;
+								&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-inner&#x22;&#x3E;div&#x3C;/div&#x3E;
+								&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-element&#x22;&#x3E;div&#x3C;/div&#x3E;<br>
+								&#x9;&#x9;&#x9;&#x9;&#x3C;/div&#x3E;
+
+							</code>
+		</div>
+
+	</div>
+	<div>
+		<h3>fxLayout="row" fxLayoutAlign="end start"</h3>
+		<div fxLayout="row" fxLayoutAlign="end start" class="container height150">
+			<div class="container-outer">div</div>
+			<div class="container">div</div>
+			<div class="container-inner">div</div>
+			<div class="container-element">div</div>
+		</div>
+		<div class="code-container">
+			<code>
+								&#x9;&#x3C;div fxLayout=&#x22;row&#x22; fxLayoutAlign=&#x22;end start&#x22; class=&#x22;container&#x22;&#x3E;
+								&#x9;&#x9;&#x9;&#x9;&#x9;<br> --  &#x3C;div class=&#x22;container-outer&#x22;&#x3E;div&#x3C;/div&#x3E;
+								&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container&#x22;&#x3E;div&#x3C;/div&#x3E;
+								&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-inner&#x22;&#x3E;div&#x3C;/div&#x3E;
+								&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-element&#x22;&#x3E;div&#x3C;/div&#x3E;<br>
+								&#x9;&#x9;&#x9;&#x9;&#x3C;/div&#x3E;
+
+							</code>
+		</div>
+
+	</div>
+	<div>
+		<h3>fxLayout="row" fxLayoutAlign="end center"</h3>
+		<div fxLayout="row" fxLayoutAlign="end center" class="container height150">
+			<div class="container-outer">div</div>
+			<div class="container">div</div>
+			<div class="container-inner">div</div>
+			<div class="container-element">div</div>
+		</div>
+		<div class="code-container">
+			<code>
+								&#x9;&#x3C;div fxLayout=&#x22;row&#x22; fxLayoutAlign=&#x22;end center&#x22; class=&#x22;container&#x22;&#x3E;
+								&#x9;&#x9;&#x9;&#x9;&#x9;<br> --  &#x3C;div class=&#x22;container-outer&#x22;&#x3E;div&#x3C;/div&#x3E;
+								&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container&#x22;&#x3E;div&#x3C;/div&#x3E;
+								&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-inner&#x22;&#x3E;div&#x3C;/div&#x3E;
+								&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-element&#x22;&#x3E;div&#x3C;/div&#x3E;<br>
+								&#x9;&#x9;&#x9;&#x9;&#x3C;/div&#x3E;
+
+							</code>
+		</div>
+
+	</div>
+	<div>
+		<h3>fxLayout="row" fxLayoutAlign="end end"</h3>
+		<div fxLayout="row" fxLayoutAlign="end end" class="container height150">
+			<div class="container-outer">div</div>
+			<div class="container">div</div>
+			<div class="container-inner">div</div>
+			<div class="container-element">div</div>
+		</div>
+		<div class="code-container">
+			<code>
+								&#x9;&#x3C;div fxLayout=&#x22;row&#x22; fxLayoutAlign=&#x22;end end&#x22; class=&#x22;container&#x22;&#x3E;
+								&#x9;&#x9;&#x9;&#x9;&#x9;<br> --  &#x3C;div class=&#x22;container-outer&#x22;&#x3E;div&#x3C;/div&#x3E;
+								&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container&#x22;&#x3E;div&#x3C;/div&#x3E;
+								&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-inner&#x22;&#x3E;div&#x3C;/div&#x3E;
+								&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-element&#x22;&#x3E;div&#x3C;/div&#x3E;<br>
+								&#x9;&#x9;&#x9;&#x9;&#x3C;/div&#x3E;
+
+							</code>
+		</div>
+
+	</div>
+	<div>
+		<h3>fxLayout="row" fxLayoutAlign="end stretch"</h3>
+		<div fxLayout="row" fxLayoutAlign="end stretch" class="container height150">
+			<div class="container-outer">div</div>
+			<div class="container">div</div>
+			<div class="container-inner">div</div>
+			<div class="container-element">div</div>
+		</div>
+		<div class="code-container">
+			<code>
+							&#x9;&#x3C;div fxLayout=&#x22;row&#x22; fxLayoutAlign=&#x22;end stretch&#x22; class=&#x22;container&#x22;&#x3E;
+							&#x9;&#x9;&#x9;&#x9;&#x9;<br> --  &#x3C;div class=&#x22;container-outer&#x22;&#x3E;div&#x3C;/div&#x3E;
+							&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container&#x22;&#x3E;div&#x3C;/div&#x3E;
+							&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-inner&#x22;&#x3E;div&#x3C;/div&#x3E;
+							&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-element&#x22;&#x3E;div&#x3C;/div&#x3E;<br>
+							&#x9;&#x9;&#x9;&#x9;&#x3C;/div&#x3E;
+
+						</code>
+		</div>
+
+	</div>
+	<div>
+		<h3>fxLayout="row" fxLayoutAlign="space-around start"</h3>
+		<div fxLayout="row" fxLayoutAlign="space-around start" class="container height150">
+			<div class="container-outer">div</div>
+			<div class="container">div</div>
+			<div class="container-inner">div</div>
+			<div class="container-element">div</div>
+		</div>
+		<div class="code-container">
+			<code>
+							&#x9;&#x3C;div fxLayout=&#x22;row&#x22; fxLayoutAlign=&#x22;space-around start&#x22; class=&#x22;container&#x22;&#x3E;
+							&#x9;&#x9;&#x9;&#x9;&#x9;<br> --  &#x3C;div class=&#x22;container-outer&#x22;&#x3E;div&#x3C;/div&#x3E;
+							&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container&#x22;&#x3E;div&#x3C;/div&#x3E;
+							&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-inner&#x22;&#x3E;div&#x3C;/div&#x3E;
+							&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-element&#x22;&#x3E;div&#x3C;/div&#x3E;<br>
+							&#x9;&#x9;&#x9;&#x9;&#x3C;/div&#x3E;
+
+						</code>
+		</div>
+
+	</div>
+	<div>
+		<h3>fxLayout="row" fxLayoutAlign="space-around center"</h3>
+		<div fxLayout="row" fxLayoutAlign="space-around center" class="container height150">
+			<div class="container-outer">div</div>
+			<div class="container">div</div>
+			<div class="container-inner">div</div>
+			<div class="container-element">div</div>
+		</div>
+		<div class="code-container">
+			<code>
+								&#x9;&#x3C;div fxLayout=&#x22;row&#x22; fxLayoutAlign=&#x22;space-around center&#x22; class=&#x22;container&#x22;&#x3E;
+								&#x9;&#x9;&#x9;&#x9;&#x9;<br> --  &#x3C;div class=&#x22;container-outer&#x22;&#x3E;div&#x3C;/div&#x3E;
+								&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container&#x22;&#x3E;div&#x3C;/div&#x3E;
+								&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-inner&#x22;&#x3E;div&#x3C;/div&#x3E;
+								&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-element&#x22;&#x3E;div&#x3C;/div&#x3E;<br>
+								&#x9;&#x9;&#x9;&#x9;&#x3C;/div&#x3E;
+
+							</code>
+		</div>
+
+	</div>
+	<div>
+		<h3>fxLayout="row" fxLayoutAlign="space-around end"</h3>
+		<div fxLayout="row" fxLayoutAlign="space-around end" class="container height150">
+			<div class="container-outer">div</div>
+			<div class="container">div</div>
+			<div class="container-inner">div</div>
+			<div class="container-element">div</div>
+		</div>
+		<div class="code-container">
+			<code>
+										&#x9;&#x3C;div fxLayout=&#x22;row&#x22; fxLayoutAlign=&#x22;space-around end&#x22; class=&#x22;container&#x22;&#x3E;
+										&#x9;&#x9;&#x9;&#x9;&#x9;<br> --  &#x3C;div class=&#x22;container-outer&#x22;&#x3E;div&#x3C;/div&#x3E;
+										&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container&#x22;&#x3E;div&#x3C;/div&#x3E;
+										&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-inner&#x22;&#x3E;div&#x3C;/div&#x3E;
+										&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-element&#x22;&#x3E;div&#x3C;/div&#x3E;<br>
+										&#x9;&#x9;&#x9;&#x9;&#x3C;/div&#x3E;
+
+									</code>
+		</div>
+
+	</div>
+	<div>
+		<h3>fxLayout="row" fxLayoutAlign="space-around stretch"</h3>
+		<div fxLayout="row" fxLayoutAlign="space-around stretch" class="container height150">
+			<div class="container-outer">div</div>
+			<div class="container">div</div>
+			<div class="container-inner">div</div>
+			<div class="container-element">div</div>
+		</div>
+		<div class="code-container">
+			<code>
+											&#x9;&#x3C;div fxLayout=&#x22;row&#x22; fxLayoutAlign=&#x22;space-around stretch&#x22; class=&#x22;container&#x22;&#x3E;
+											&#x9;&#x9;&#x9;&#x9;&#x9;<br> --  &#x3C;div class=&#x22;container-outer&#x22;&#x3E;div&#x3C;/div&#x3E;
+											&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container&#x22;&#x3E;div&#x3C;/div&#x3E;
+											&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-inner&#x22;&#x3E;div&#x3C;/div&#x3E;
+											&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-element&#x22;&#x3E;div&#x3C;/div&#x3E;<br>
+											&#x9;&#x9;&#x9;&#x9;&#x3C;/div&#x3E;
+
+										</code>
+		</div>
+
+	</div>
+	<div>
+		<h3>fxLayout="row" fxLayoutAlign="space-between start"</h3>
+		<div fxLayout="row" fxLayoutAlign="space-between start" class="container height150">
+			<div class="container-outer">div</div>
+			<div class="container">div</div>
+			<div class="container-inner">div</div>
+			<div class="container-element">div</div>
+		</div>
+		<div class="code-container">
+			<code>
+												&#x9;&#x3C;div fxLayout=&#x22;row&#x22; fxLayoutAlign=&#x22;space-between start&#x22; class=&#x22;container&#x22;&#x3E;
+												&#x9;&#x9;&#x9;&#x9;&#x9;<br> --  &#x3C;div class=&#x22;container-outer&#x22;&#x3E;div&#x3C;/div&#x3E;
+												&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container&#x22;&#x3E;div&#x3C;/div&#x3E;
+												&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-inner&#x22;&#x3E;div&#x3C;/div&#x3E;
+												&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-element&#x22;&#x3E;div&#x3C;/div&#x3E;<br>
+												&#x9;&#x9;&#x9;&#x9;&#x3C;/div&#x3E;
+
+											</code>
+		</div>
+
+	</div>
+	<div>
+		<h3>fxLayout="row" fxLayoutAlign="space-between center"</h3>
+		<div fxLayout="row" fxLayoutAlign="space-between center" class="container height150">
+			<div class="container-outer">div</div>
+			<div class="container">div</div>
+			<div class="container-inner">div</div>
+			<div class="container-element">div</div>
+		</div>
+		<div class="code-container">
+			<code>
+													&#x9;&#x3C;div fxLayout=&#x22;row&#x22; fxLayoutAlign=&#x22;space-between center&#x22; class=&#x22;container&#x22;&#x3E;
+													&#x9;&#x9;&#x9;&#x9;&#x9;<br> --  &#x3C;div class=&#x22;container-outer&#x22;&#x3E;div&#x3C;/div&#x3E;
+													&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container&#x22;&#x3E;div&#x3C;/div&#x3E;
+													&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-inner&#x22;&#x3E;div&#x3C;/div&#x3E;
+													&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-element&#x22;&#x3E;div&#x3C;/div&#x3E;<br>
+													&#x9;&#x9;&#x9;&#x9;&#x3C;/div&#x3E;
+
+												</code>
+		</div>
+
+	</div>
+	<div>
+		<h3>fxLayout="row" fxLayoutAlign="space-between end"</h3>
+		<div fxLayout="row" fxLayoutAlign="space-between end" class="container height150">
+			<div class="container-outer">div</div>
+			<div class="container">div</div>
+			<div class="container-inner">div</div>
+			<div class="container-element">div</div>
+		</div>
+		<div class="code-container">
+			<code>
+														&#x9;&#x3C;div fxLayout=&#x22;row&#x22; fxLayoutAlign=&#x22;space-between end&#x22; class=&#x22;container&#x22;&#x3E;
+														&#x9;&#x9;&#x9;&#x9;&#x9;<br> --  &#x3C;div class=&#x22;container-outer&#x22;&#x3E;div&#x3C;/div&#x3E;
+														&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container&#x22;&#x3E;div&#x3C;/div&#x3E;
+														&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-inner&#x22;&#x3E;div&#x3C;/div&#x3E;
+														&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-element&#x22;&#x3E;div&#x3C;/div&#x3E;<br>
+														&#x9;&#x9;&#x9;&#x9;&#x3C;/div&#x3E;
+
+													</code>
+		</div>
+
+	</div>
+	<div>
+		<h3>fxLayout="row" fxLayoutAlign="space-between stretch"</h3>
+		<div fxLayout="row" fxLayoutAlign="space-between stretch" class="container height150">
+			<div class="container-outer">div</div>
+			<div class="container">div</div>
+			<div class="container-inner">div</div>
+			<div class="container-element">div</div>
+		</div>
+		<div class="code-container">
+			<code>
+															&#x9;&#x3C;div fxLayout=&#x22;row&#x22; fxLayoutAlign=&#x22;space-between stretch&#x22; class=&#x22;container&#x22;&#x3E;
+															&#x9;&#x9;&#x9;&#x9;&#x9;<br> --  &#x3C;div class=&#x22;container-outer&#x22;&#x3E;div&#x3C;/div&#x3E;
+															&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container&#x22;&#x3E;div&#x3C;/div&#x3E;
+															&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-inner&#x22;&#x3E;div&#x3C;/div&#x3E;
+															&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-element&#x22;&#x3E;div&#x3C;/div&#x3E;<br>
+															&#x9;&#x9;&#x9;&#x9;&#x3C;/div&#x3E;
+
+														</code>
+		</div>
+
+	</div>
+	<div>
+		<h3>fxLayout="row" fxLayoutAlign="space-evenly start"</h3>
+		<div fxLayout="row" fxLayoutAlign="space-evenly start" class="container height150">
+			<div class="container-outer">div</div>
+			<div class="container">div</div>
+			<div class="container-inner">div</div>
+			<div class="container-element">div</div>
+		</div>
+		<div class="code-container">
+			<code>
+																	&#x9;&#x3C;div fxLayout=&#x22;row&#x22; fxLayoutAlign=&#x22;space-evenly start&#x22; class=&#x22;container&#x22;&#x3E;
+																	&#x9;&#x9;&#x9;&#x9;&#x9;<br> --  &#x3C;div class=&#x22;container-outer&#x22;&#x3E;div&#x3C;/div&#x3E;
+																	&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container&#x22;&#x3E;div&#x3C;/div&#x3E;
+																	&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-inner&#x22;&#x3E;div&#x3C;/div&#x3E;
+																	&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-element&#x22;&#x3E;div&#x3C;/div&#x3E;<br>
+																	&#x9;&#x9;&#x9;&#x9;&#x3C;/div&#x3E;
+
+																</code>
+		</div>
+
+	</div>
+	<div>
+		<h3>fxLayout="row" fxLayoutAlign="space-evenly center"</h3>
+		<div fxLayout="row" fxLayoutAlign="space-evenly center" class="container height150">
+			<div class="container-outer">div</div>
+			<div class="container">div</div>
+			<div class="container-inner">div</div>
+			<div class="container-element">div</div>
+		</div>
+		<div class="code-container">
+			<code>
+																		&#x9;&#x3C;div fxLayout=&#x22;row&#x22; fxLayoutAlign=&#x22;space-evenly center&#x22; class=&#x22;container&#x22;&#x3E;
+																		&#x9;&#x9;&#x9;&#x9;&#x9;<br> --  &#x3C;div class=&#x22;container-outer&#x22;&#x3E;div&#x3C;/div&#x3E;
+																		&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container&#x22;&#x3E;div&#x3C;/div&#x3E;
+																		&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-inner&#x22;&#x3E;div&#x3C;/div&#x3E;
+																		&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-element&#x22;&#x3E;div&#x3C;/div&#x3E;<br>
+																		&#x9;&#x9;&#x9;&#x9;&#x3C;/div&#x3E;
+
+																	</code>
+		</div>
+
+	</div>
+	<div>
+		<h3>fxLayout="row" fxLayoutAlign="space-evenly end"</h3>
+		<div fxLayout="row" fxLayoutAlign="space-evenly end" class="container height150">
+			<div class="container-outer">div</div>
+			<div class="container">div</div>
+			<div class="container-inner">div</div>
+			<div class="container-element">div</div>
+		</div>
+		<div class="code-container">
+			<code>
+																			&#x9;&#x3C;div fxLayout=&#x22;row&#x22; fxLayoutAlign=&#x22;space-evenly end&#x22; class=&#x22;container&#x22;&#x3E;
+																			&#x9;&#x9;&#x9;&#x9;&#x9;<br> --  &#x3C;div class=&#x22;container-outer&#x22;&#x3E;div&#x3C;/div&#x3E;
+																			&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container&#x22;&#x3E;div&#x3C;/div&#x3E;
+																			&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-inner&#x22;&#x3E;div&#x3C;/div&#x3E;
+																			&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-element&#x22;&#x3E;div&#x3C;/div&#x3E;<br>
+																			&#x9;&#x9;&#x9;&#x9;&#x3C;/div&#x3E;
+
+																		</code>
+		</div>
+
+	</div>
+	<div>
+		<h3>fxLayout="row" fxLayoutAlign="space-evenly stretch"</h3>
+		<div fxLayout="row" fxLayoutAlign="space-evenly stretch" class="container height150">
+			<div class="container-outer">div</div>
+			<div class="container">div</div>
+			<div class="container-inner">div</div>
+			<div class="container-element">div</div>
+		</div>
+		<div class="code-container">
+			<code>
+																			&#x9;&#x3C;div fxLayout=&#x22;row&#x22; fxLayoutAlign=&#x22;space-evenly stretch&#x22; class=&#x22;container&#x22;&#x3E;
+																			&#x9;&#x9;&#x9;&#x9;&#x9;<br> --  &#x3C;div class=&#x22;container-outer&#x22;&#x3E;div&#x3C;/div&#x3E;
+																			&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container&#x22;&#x3E;div&#x3C;/div&#x3E;
+																			&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-inner&#x22;&#x3E;div&#x3C;/div&#x3E;
+																			&#x9;&#x9;&#x9;&#x9;&#x9;<br> -- &#x3C;div class=&#x22;container-element&#x22;&#x3E;div&#x3C;/div&#x3E;<br>
+																			&#x9;&#x9;&#x9;&#x9;&#x3C;/div&#x3E;
+
+																		</code>
+		</div>
+
+	</div>
+
+</div>
