@@ -1,10 +1,10 @@
 <app-header></app-header>
 
-<div fxLayout="row" fxLayoutAlign="space-between start">
-	<div class=" container-outer" fxFlex="20">
+<div fxLayout="row" fxLayout.lt-md="column" fxLayoutAlign="space-between start" fxLayoutAlign.lt-md="start stretch">
+	<div class=" container-outer" fxFlex="20" fxFlex.md="35">
 		<app-sidebar></app-sidebar>
 	</div>
-	<div class="content container-outer" fxFlex="80">
+	<div class="content container-outer" fxFlex="80" fxFlex.md="65">
 		<router-outlet></router-outlet>
 	</div>
 </div>

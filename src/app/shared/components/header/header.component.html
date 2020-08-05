@@ -1,4 +1,4 @@
-<header class="container-outer" fxLayout="row" fxLayoutAlign="space-between center">
+<header class="container-outer" fxLayout="row" fxLayoutAlign="space-between center" fxShow.gt-sm fxHide.lt-sm>
 	<div class="container" fxFlex="20">
 		<div class="container-inner">
 			<a [routerLink]="['']" routerLinkActive="router-link-active">Home</a>
@@ -6,7 +6,7 @@
 	</div>
 	<div class="container" fxFlex="80">
 		<div class="container-inner">
-			Search field component goes here
+			DESKTOP HEADER
 		</div>
 	</div>
 	<div class="container" fxFlex="20">
@@ -15,3 +15,40 @@
 		</div>
 	</div>
 </header>
+
+<header class="container-outer" fxLayout="column" fxLayoutAlign="center stretch" fxShow.lt-sm fxHide.lt-xl>
+	<div class="container">
+		<div class="container-inner">
+			<a [routerLink]="['']" routerLinkActive="router-link-active">Home</a>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="container-inner">
+			<a [routerLink]="['/row-examples']" routerLinkActive="router-link-active">Examples</a>
+		</div>
+	</div>
+	<div class="container">
+		<div class="container-inner">
+			CELL PHONE HEADER
+		</div>
+	</div>
+</header>
+
+<!-- <header class="container-outer" fxLayout="row" fxLayoutAlign="space-between center" fxLayout.lt-sm="column" fxLayoutAlign.lt-sm="center stretch">
+	<div class="container" fxFlex="20">
+		<div class="container-inner">
+			<a [routerLink]="['']" routerLinkActive="router-link-active">Home</a>
+		</div>
+	</div>
+	<div class="container" fxFlex="80" fxFlexOrder.lt-sm="3">
+		<div class="container-inner">
+			Search field component goes here
+		</div>
+	</div>
+	<div class="container" fxFlex="20" fxFlexOrder.lt-sm="2">
+		<div class="container-inner">
+			<a [routerLink]="['/row-examples']" routerLinkActive="router-link-active">Examples</a>
+		</div>
+	</div>
+</header> -->
